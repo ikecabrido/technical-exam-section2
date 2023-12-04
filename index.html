@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <img src="/pics/download.jfif" alt="this is an image" />
+      <h2>All to Well (Taylor's Version)</h2>
+      <h4>Taylor Swift</h4>
+      <div id="timeline">
+        <span id="start">0:00</span>
+        <span id="end">0:00</span>
+      </div>
+
+      <input type="range" id="seekbar" value="0" />
+      <div id="controls">
+        <button id="previous"><i class="fa-solid fa-backward-step"></i></button>
+        <button id="play-pause" onclick="playPause()">
+          <i class="fa-solid fa-play" id="icon"></i>
+        </button>
+        <button id="next"><i class="fa-solid fa-forward-step"></i></button>
+      </div>
+    </div>
+    <div id="side-info">
+      <h1>Explore</h1>
+      <div id="subtitles">
+        <h3>Lyrics</h3>
+        <h3>Other Albums</h3>
+        <h3>Related Artists</h3>
+      </div>
+      <div id="subcontent">
+        <p>
+          I walked through the door with you <br />
+          The air was cold <br />
+          But something about it felt like home somehow <br />
+          And I, left my scarf there at your sister's house <br />
+          And you've still got it in your drawer even now
+        </p>
+        <p>
+          Oh, your sweet disposition <br />
+          And my wide-eyed gaze <br />
+          We're singing in the car, getting lost upstate <br />
+          Autumn leaves falling down like pieces into place <br />
+          And I can picture it after all these days
+        </p>
+        <p>
+          And I know it's long gone and that magic's not here no more <br />
+          And I might be okay but I'm not fine at all
+        </p>
+        <p>
+          'Cause there we are again on that little town street <br />
+          You almost ran the red 'cause you were lookin' over at me <br />
+          Wind in my hair, I was there I remember it all too well
+        </p>
+        <p>
+          Photo album on the counter <br />Your cheeks were turning red
+          <br />You used to be a little kid with glasses in a twin-sized bed
+          <br />
+          And your mother's telling stories 'bout you on the tee-ball team
+          <br />
+          You told me 'bout your past thinking your future was me
+        </p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
